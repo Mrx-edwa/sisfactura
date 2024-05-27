@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/styli.css">
+    <link rel="icon" href="/img/OIP.jpg">
+</head>
+<body>
+    <div class="login-container">
+        <h2><img src="/img/OIP.jpg" alt="User" class="avatar">#</h2>
+        <h2>CodeCraft</h2>
+        <form action="./php/login.php" method="POST">
+            <div class="input-group">
+                <label for="username">Usuario:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit">Entrar</button>
+        </form>
+    </div>
+</body>
+</html>

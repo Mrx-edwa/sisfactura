@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('/img/R.jpg'); /* Cambia 'background-image.jpg' por la ruta de tu imagen */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .login-container {
+    background-color: rgba(255, 255, 255, 0.8); /* Añade transparencia al contenedor */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px; /* Puedes ajustar este valor según tus necesidades */
+    max-width: 90%; /* Establece un ancho máximo para evitar que el contenedor sea demasiado grande en pantallas grandes */
+  }
+  
+  
+  .login-container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    position: relative; /* Posición relativa para el contenedor del texto y la imagen */
+  }
+  
+  .avatar {
+    width: 80px; /* Ajusta el tamaño de la imagen según sea necesario */
+    height: 80px;
+    border-radius: 50%; /* Hace que la imagen sea circular */
+    position: absolute;
+    left: 50%;
+    top: -40px;
+    transform: translateX(-50%); /* Centra horizontalmente la imagen */
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .input-group input {
+    width: 95%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 10 auto; /* Esto centra horizontalmente el input dentro del contenedor */
+  }
+  
+
+  button {
+    width: 100%;
+    padding: 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s; /* Añadimos transform para animar el cambio de tamaño */
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+    transform: scale(1.1); /* Escalamos el botón al 110% cuando esté en estado de hover */
+  }
