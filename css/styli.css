@@ -6,7 +6,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url('/img/R.jpg'); /* Cambia 'background-image.jpg' por la ruta de tu imagen */
+    background-image: url('https://img.freepik.com/foto-gratis/colores-arremolinados-interactuan-danza-fluida-sobre-lienzo-que-muestra-tonos-vibrantes-patrones-dinamicos-que-capturan-caos-belleza-arte-abstracto_157027-2892.jpg'); /* Cambia 'background-image.jpg' por la ruta de tu imagen */
     background-size: cover;
     background-position: center;
   }
